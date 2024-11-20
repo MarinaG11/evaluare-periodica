@@ -1,0 +1,26 @@
+head {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: #a80e0e;
+    display: block;
+    /* Убираем второй display */
+}
+
+body {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 30%;
+    background-image: url(img/beautiful-watercolor-background_23-2148486848.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: grid; /* Используем grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 10px;
+}
