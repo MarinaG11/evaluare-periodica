@@ -24,8 +24,8 @@ body {
 
 .grid-cell {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     padding: 15px;
     text-align: center;
     font-size: 16px;
@@ -50,7 +50,7 @@ body {
 table {
     width: 100%;
     max-width: 800px;
-    margin: auto;
+    margin-left: 20px;
     border-collapse: collapse;
     background-color: rgb(255, 255, 255);
 }
@@ -79,3 +79,4 @@ td, th {
     background-color: #a80e0e;
     color: white;
 }
+

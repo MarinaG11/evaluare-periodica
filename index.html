@@ -1,114 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orar Usarb</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="csrf-token" content="m2af62mo-2x_I-hkpRUYMXtbfI47V9sC6EyQ">
-    <script src="js/uikit.min.js" type="text/java script"></script>
-    <script src="/js/uikit-icons.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<body class="container">
+    <h1 class="text-white uk-text-center">Orarul Cursurilor</h1>
 
-<body class="container" style>
-    <div><button id="studentMode" class="uk-button myToggler">Orarul Cursurilor</button></div>
     <div class="uk-flex uk-flex-between uk-flex-nowrap">
-        <button id="studentMode" class="uk-button myToggler">Grupe</button>
+        <button id="studentMode" class="uk-button myToggler active">Grupe</button>
         <button id="teacherMode" class="uk-button changer2 myToggler active">Profesori</button>
-        <button id="officeMode" class="uk-button changer myToggler">Aule</button>
+        <button id="officeMode" class="uk-button changer myToggler active">Aule</button>
     </div>
+
+    <h1>Test de EP</h1>
+    <a href="http://orar.usarb.md">ORAR</a>
+    <a href="http://usarb.md">USARB</a>
+
+    <div>
+        <table>
+            <tr class="header">
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+            </tr>
+            <tr>
+                <td>L-18</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+                <td>EP</td>
+                <td>S</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>M-19</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mi-20</td>
+                <td></td>
+                <td></td>
+                <td>L</td>
+                <td>EP</td>
+                <td>L</td>
+                <td>S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>J-21</td>
+                <td>R</td>
+                <td></td>
+                <td>R</td>
+                <td>S</td>
+                <td>L</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>V-22</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>L</td>
+                <td>EP</td>
+                <td>S</td>
+                <td>R</td>
+            </tr>
+            <tr>
+                <td>S-23</td>
+                <td>EP</td>
+                <td>L</td>
+                <td>S</td>
+                <td>S</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>D-24</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <form action="">
+        <label for="studentName">Student</label>
+        <input type="text" name="first name" id="studentName"><br>
+
+        <label for="group">Group</label>
+        <select id="group" name="group">
+            <option value="MI41R">MI41R</option>
+        </select><br>
+    </form>
+
 </body>
-<h2>Test de EP</h2>
-<a href="http://orar.usarb.md">ORAR</a>
-<a href=" http://usarb.md"></a>
-<div><button id="studentMode" class="uk-button myToggler">Miercuri</button></div>
-<div>
-    </head>
-
-    <body>
-
-        <div class="grid-table">
-            <div class="grid-cell header">1</div>
-            <div class="grid-cell header">2</div>
-            <div class="grid-cell header">3</div>
-            <div class="grid-cell header">4</div>
-            <div class="grid-cell header">5</div>
-            <div class="grid-cell header">6</div>
-            <div class="grid-cell header">7</div>
-            <div class="grid-cell header">8</div>
-
-            <div class="grid-cell">L-18</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell">EP</div>
-            <div class="grid-cell">S</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-
-            <div class="grid-cell">M-19</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell">P</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell"></div>
-
-            <div class="grid-cell">Mi-20</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">EP</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">S</div>
-            <div class="grid-cell"></div>
-
-            <div class="grid-cell">J-21</div>
-            <div class="grid-cell">R</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell">R</div>
-            <div class="grid-cell">S</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-
-            <div class="grid-cell">V-22</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">EP</div>
-            <div class="grid-cell">S</div>
-            <div class="grid-cell">R</div>
-
-            <div class="grid-cell">S-23</div>
-            <div class="grid-cell">EP</div>
-            <div class="grid-cell">L</div>
-            <div class="grid-cell">S</div>
-            <div class="grid-cell">S</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-
-            <div class="grid-cell">D-24</div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-            <div class="grid-cell"></div>
-        </div>
-</div>
-<form action="">
-    Student<input type="text" name="first name" id=""> <br>
-    <option value="">MI41R</option>
-    </select> <br>
-
-</form>
-
-</body>
-
 </html>
